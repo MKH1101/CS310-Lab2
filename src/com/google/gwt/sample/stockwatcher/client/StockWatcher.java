@@ -142,7 +142,7 @@ private void loadStockWatcher() {
 
 
 //Stocks should be remembered between signing in.
-//Only use letters and numbers to represent stocks.
+
 
 private void loadStocks() {
     stockService.getStocks(new AsyncCallback<String[]>() {
