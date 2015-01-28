@@ -141,9 +141,9 @@ private void loadStockWatcher() {
       }
 
 
-//Stocks should be remembered between signing in.
 
 
+//StockWatcher requires proper input, only letters and numbers may represent stocks.
 private void loadStocks() {
     stockService.getStocks(new AsyncCallback<String[]>() {
       public void onFailure(Throwable error) {
